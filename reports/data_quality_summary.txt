@@ -1,0 +1,32 @@
+DAY 1 DATA QUALITY SUMMARY
+
+1. Successfully loaded all 10 CSV datasets.
+2. Verified dataset structure using shape, dtypes and sample records.
+3. Validated AMFI codes between fund_master and nav_history datasets.
+4. No missing AMFI codes found.
+5. Live NAV data successfully fetched using MFAPI.
+6. Data ingestion pipeline tested successfully.
+
+DAY 2 DATA QUALITY SUMMARY
+
+1. NAV history data cleaned and validated.
+2. Duplicate records removed.
+3. Missing NAV values forward-filled.
+4. All NAV values validated as positive.
+5. Transaction dates standardized.
+6. Transaction types standardized to SIP, Lumpsum and Redemption.
+7. Transaction amounts validated.
+8. KYC status values verified.
+9. Scheme performance metrics validated.
+10. Expense ratio anomalies checked.
+
+RESULTS
+
+NAV Records: 46000
+Transaction Records: 32778
+Performance Records: 40
+
+Expense Ratio Anomalies: 0
+Invalid KYC Records: 0
+
+Data quality checks completed successfully.
