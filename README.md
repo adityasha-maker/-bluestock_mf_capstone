@@ -55,6 +55,83 @@ bluestock_mf_capstone/
 * SQL Analysis Queries
 * Live NAV Fetch using MFAPI
 
+  ## Day 3 – Exploratory Data Analysis (EDA)
+
+### Objectives
+
+* Analyze Mutual Fund industry trends and fund performance patterns.
+* Visualize NAV movements, SIP inflows, AUM growth, investor demographics, and portfolio allocations.
+* Generate insights to support investment analysis.
+
+### Tasks Completed
+
+* NAV Trend Analysis for selected mutual fund schemes.
+* SIP Inflow Trend Analysis.
+* Fund-wise and category-wise comparisons.
+* Correlation Analysis of fund returns.
+* Investor demographic analysis.
+* Geographic distribution analysis.
+* Folio growth trend visualization.
+* Sector allocation analysis.
+
+### Deliverables
+
+* `03_eda_analysis.ipynb`
+* Multiple EDA charts and visualizations.
+* Key analytical insights documented in notebook markdown cells.
+
+### Key Findings
+
+* Mutual fund participation increased significantly during the study period.
+* SIP inflows showed a consistent upward trend.
+* Equity-oriented schemes attracted higher investor interest.
+* Fund return correlations highlighted diversification opportunities.
+* Sector allocations indicated concentration in major industries such as Financial Services and IT.
+
+
+## Day 4 – Fund Performance Analytics
+
+### Objectives
+
+* Evaluate historical mutual fund performance.
+* Measure return generation and risk-adjusted returns.
+* Compare schemes using industry-standard metrics.
+
+### Tasks Completed
+
+* Calculated Daily Returns using NAV data.
+* Computed Compound Annual Growth Rate (CAGR).
+* Calculated Sharpe Ratio for risk-adjusted performance evaluation.
+* Ranked mutual fund schemes based on performance metrics.
+* Generated performance visualizations.
+
+### Performance Summary
+
+| Scheme           | CAGR (%) | Sharpe Ratio |
+| ---------------- | -------: | -----------: |
+| HDFC Top 100     |    24.01 |         1.13 |
+| Kotak Bluechip   |    16.82 |         0.72 |
+| Nippon Large Cap |    15.12 |         0.59 |
+| Axis Bluechip    |    51.18 |         0.27 |
+| SBI Bluechip     |     0.15 |        -0.63 |
+| ICICI Bluechip   |    15.49 |          NaN |
+
+### Key Findings
+
+* HDFC Top 100 delivered the strongest risk-adjusted returns.
+* Kotak Bluechip and Nippon Large Cap demonstrated balanced risk-return characteristics.
+* Axis Bluechip achieved the highest CAGR but exhibited lower risk-adjusted efficiency.
+* SBI Bluechip underperformed relative to the assumed risk-free rate.
+* ICICI Bluechip requires further data validation due to missing Sharpe Ratio values.
+
+### Deliverables
+
+* `04_performance_analytics.ipynb`
+* `day4_performance_metrics.csv`
+* `cagr_comparison.png`
+* `sharpe_ratio_comparison.png
+
+
 ## Author
 
 Aditya Sharma
