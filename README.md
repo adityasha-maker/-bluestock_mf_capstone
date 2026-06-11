@@ -132,6 +132,61 @@ bluestock_mf_capstone/
 * `sharpe_ratio_comparison.png
 
 
+## Day 5 – Dashboard Development
+
+### Objectives
+
+Developed an interactive Power BI dashboard for mutual fund industry analysis, fund performance evaluation, investor behavior insights, and SIP market trend visualization.
+
+### Dashboard Pages
+
+#### 1. Industry Overview
+
+* Total AUM KPI
+* SIP Inflows KPI
+* Total Folios KPI
+* Number of Schemes KPI
+* Industry AUM Trend
+* AUM by Fund House
+
+#### 2. Fund Performance
+
+* Return vs Risk Scatter Plot
+* Fund Scorecard Table
+* NAV vs Benchmark Analysis
+* Fund House and Category Slicers
+
+#### 3. Investor Analytics
+
+* Transaction Amount by State
+* SIP/Lumpsum/Redemption Distribution
+* Age Group Analysis
+* City Tier Analysis
+* Interactive Slicers
+
+#### 4. SIP & Market Trends
+
+* Monthly SIP Inflow Trend
+* Nifty 50 Trend
+* SIP Inflows vs Market Performance
+* Category-wise Net Inflows
+* Top 5 Categories by Net Inflow
+
+### Deliverables
+
+* bluestock_mf_dashboard.pbix
+* Dashboard.pdf
+* Dashboard Screenshots (PNG)
+
+### Tools Used
+
+* Power BI Desktop
+* CSV Datasets
+* Data Modeling
+* Interactive Visualizations
+
+
+
 ## Author
 
 Aditya Sharma
