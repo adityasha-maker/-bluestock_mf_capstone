@@ -186,6 +186,169 @@ Developed an interactive Power BI dashboard for mutual fund industry analysis, f
 * Interactive Visualizations
 
 
+# Day 6 — Advanced Analytics & Risk Metrics
+
+## Objective
+
+The objective of Day 6 was to perform advanced risk analytics, investor behavior analysis, portfolio concentration measurement, and fund recommendation modeling using mutual fund data.
+
+---
+
+## Tasks Completed
+
+### 1. Historical VaR (95%) and CVaR Analysis
+
+* Calculated daily returns for all mutual fund schemes using NAV history.
+* Computed Historical Value at Risk (VaR) at the 95% confidence level.
+* Computed Conditional Value at Risk (CVaR) to measure expected losses beyond the VaR threshold.
+* Generated a consolidated risk report for all schemes.
+
+**Output:** `var_cvar_report.csv`
+
+---
+
+### 2. Rolling 90-Day Sharpe Ratio
+
+* Calculated rolling 90-day Sharpe Ratios using daily returns.
+* Annualized Sharpe Ratios using √252 trading days.
+* Visualized risk-adjusted performance trends for selected funds.
+
+**Output:** `rolling_sharpe_chart.png`
+
+---
+
+### 3. Investor Cohort Analysis
+
+* Grouped investors by first investment year.
+* Calculated:
+
+  * Average investment amount
+  * Total invested amount
+  * Cohort-level participation trends
+
+#### Key Findings
+
+| Cohort Year | Average Investment | Total Invested |
+| ----------- | ------------------ | -------------- |
+| 2024        | ₹107,739           | ₹250 Cr        |
+| 2025        | ₹106,704           | ₹102 Cr        |
+
+---
+
+### 4. SIP Continuity Analysis
+
+* Identified investors with six or more SIP transactions.
+* Calculated average gap between SIP dates.
+* Flagged investors with average gaps greater than 35 days as **At-Risk**.
+
+Purpose:
+
+* Detect potential SIP discontinuation.
+* Support investor retention strategies.
+
+---
+
+### 5. Fund Recommendation Engine
+
+Built a rule-based recommendation system using:
+
+* Risk Grade
+* Sharpe Ratio
+
+Supported risk categories:
+
+* Low Risk
+* Moderate Risk
+* High Risk
+
+**Output:** `recommender.py`
+
+Example Recommendations:
+
+#### Low Risk
+
+* ICICI Pru Liquid Fund
+* Kotak Liquid Fund
+* ABSL Liquid Fund
+
+#### Moderate Risk
+
+* Mirae Asset Large Cap Fund
+* HDFC Top 100 Fund
+* ICICI Pru Bluechip Fund
+
+---
+
+### 6. Portfolio Concentration Analysis (HHI)
+
+Calculated the Herfindahl-Hirschman Index (HHI):
+
+HHI = Σ(weight²)
+
+Purpose:
+
+* Measure portfolio concentration.
+* Identify highly concentrated funds.
+
+Top Concentrated Funds:
+
+1. Axis Bluechip Fund
+2. ABSL Small Cap Fund
+3. SBI Small Cap Fund
+4. UTI Nifty 50 Index Fund
+5. Nippon India Large Cap Fund
+
+---
+
+## Key Insights
+
+### Insight 1
+
+Small-cap funds exhibited the highest downside risk with the most negative VaR and CVaR values.
+
+### Insight 2
+
+The 2024 investor cohort contributed significantly more capital than the 2025 cohort.
+
+### Insight 3
+
+Liquid funds achieved the highest risk-adjusted returns based on Sharpe Ratios.
+
+### Insight 4
+
+Several investors showed irregular SIP behavior and were classified as At-Risk.
+
+### Insight 5
+
+Axis Bluechip Fund displayed the highest portfolio concentration among analyzed schemes.
+
+---
+
+## Deliverables
+
+* Advanced_Analytics.ipynb
+* var_cvar_report.csv
+* rolling_sharpe_chart.png
+* recommender.py
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Jupyter Notebook
+
+---
+
+## Outcome
+
+Day 6 enhanced the project with advanced risk measurement, investor analytics, portfolio concentration metrics, and a recommendation engine, enabling deeper mutual fund performance evaluation and investment decision support.
+
+
+
 
 ## Author
 
